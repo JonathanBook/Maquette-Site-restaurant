@@ -1,0 +1,100 @@
+@import url(/css/btn.css);
+@import url(/css/font.css);
+@import url(/css/menu.css);
+@import url(/css/my-scroll.css);
+
+html, body {
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+header {
+
+    height: calc( 100vh - 10px);
+    width: 100%;
+   position: fixed;
+   z-index: 2;
+}
+
+.logo {
+    float: right;
+    margin-top: 25%;
+    margin-right: 50px;
+}
+
+.adresse {
+    font-family: 'netto';
+    position: absolute;
+    top: 97%;
+    left: 20px;
+}
+
+.adresse a {
+    text-decoration: none;
+    color: white;
+    
+}
+.block-icon{
+    position: absolute;
+    left: 90%;
+    top: 94%;
+}
+
+
+video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
+.acroche{
+display: inline-block;
+   margin-top: 17%;
+   margin-left: 511px;
+}
+.acroche h1,.acroche h3{
+    font-family: 'netto';
+    font-size: 45px;
+    color: white;
+    margin: 0;
+    letter-spacing: 6px;
+    
+}
+.acroche h3{
+    color: rgb(245, 147, 49);
+    margin: 0;
+    padding: 0 0 0 0;
+
+}
+.btn-midelpage{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+}
+.chifre-navigation,.separation-nav{
+    font-family: 'netto';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    
+}
+.separation-nav{
+    font-size: 10px;
+}
+.chifre-navigation{
+    right: 18px;
+}
+
+.etage1.etage2{
+    display: block;
+}

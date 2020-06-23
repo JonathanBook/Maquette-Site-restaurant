@@ -1,0 +1,8 @@
+@font-face {
+    font-family: netto;
+    src: url("/font/netto.ttf");
+  }
+  @font-face {
+    font-family: netto_bold;
+    src: url("/font/netto_ot_bold.ttf");
+  }

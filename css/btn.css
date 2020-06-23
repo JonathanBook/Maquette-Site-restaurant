@@ -1,0 +1,71 @@
+.btn {
+    font-family: netto;
+    cursor: pointer;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    user-select: none;
+}
+
+.Humberger::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 0;
+    top: 16px;
+    left: 20px;
+    /*grace a box shadow on va crée le trois bare de notre Icon*/
+    box-shadow: 0 10px 0 1.5px #fff, 0 16px 0 1.5px #fff, 0 22px 0 1.5px #fff;
+}
+
+.menu-title {
+    display: block;
+    top: 24px;
+    left: 65px;
+    position: absolute;
+    font-size: 13px;
+}
+
+.btn-menu {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+}
+
+.btn-facebook {
+    position: absolute;
+    margin-left: 50px;
+}
+
+.btn-R {
+    position: absolute;
+    right: 50px;
+}
+
+.btn-fr, .btn-eng,.separator {
+    font-family: 'netto';
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    top: -1px;
+    margin-left: 6px;
+}
+.btn-fr{
+    right: 15px;
+}
+.separator{
+    position: absolute;
+    right: 1px;
+}
+.btn-eng{
+    position: absolute;
+    font-size: 25px;
+    top: 1px;
+}
+.btn-instagram{
+    position: absolute;
+    left: 90px;
+    top: 1px;
+}

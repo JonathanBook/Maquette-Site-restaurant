@@ -1,0 +1,88 @@
+
+.main-menu{
+    visibility: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.white{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    height: 100%;
+}
+.black{
+    background-color: rgba(0, 0, 0, 1);
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.Croix{
+    position: absolute;
+
+    top: 50%;
+    left: 20px;
+
+}
+.menu{
+    font-family: 'netto';
+    color: white;
+    font-size:22px ;
+    position: absolute;
+    left:60%;
+    top: 20%;
+    letter-spacing: 4px;
+    
+}
+.item-menu{
+    margin-top: 25px;
+}
+.menu-point{
+    font-size: 6px;
+}
+.menu-button{
+    margin-left: 30px;
+}
+.acroche-menu{
+    margin-top: 150px;
+    height: 150px;
+}
+.title-vertical{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    writing-mode: vertical-rl;
+    position: absolute;
+    right: 100%;
+}
+.name-menu,.number-phone,.address-establishment-1,
+.address-establishment-2,.gps-coordinates{
+    margin-left: 60px;
+   font-size:  14px;
+   margin-top: 9px;
+}
+.number-phone,.address-establishment-1,
+.address-establishment-2{
+    font-size: 14px;
+}
+.gps-coordinates{
+    font-size: 13px;
+}
+.credit{
+    background-color: white;
+    margin-top: 60px;
+    padding: 0 0 0 0;
+    font-size: 0;
+}
+.mention{
+    font-size:10px ;
+    color: black;
+    margin: 0;
+    padding: 0 0 0 0;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
