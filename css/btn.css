@@ -31,6 +31,7 @@
     position: absolute;
     top: 45%;
     left: 2%;
+    pointer-events: all;
 }
 
 .btn-facebook {
@@ -69,3 +70,34 @@
     left: 90px;
     top: 1px;
 }
+
+
+.btn-midelpage {
+    display: block;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+}
+.btn-midelpage-slide1,
+.btn-midelpage-slide2,
+.btn-midelpage-slide3,
+.btn-midelpage-slide4,
+.btn-midelpage-slide5 {
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.btn-midelpage-slide2{
+    left: 30% ;
+    
+}
+.btn-midelpage-slide3{
+    left: 50% ;
+}
+.btn-midelpage-slide4{
+    left: 70% ;
+}
+.btn-midelpage-slide5{
+    left: 90% ;
+}
+

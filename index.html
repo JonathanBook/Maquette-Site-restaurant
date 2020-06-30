@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/fullpage.css">
         <link rel="stylesheet" href="/css/global.css">
+        <script src="/vendors/jquery-3.5.1.js"></script>
+        <script src="/js/fullpage.js"></script>
+        <script src="/js/move.js"></script>
         <title>Restaurant</title>
     </head>
     <body>
@@ -106,9 +109,10 @@
                                     LATITUDE : 43.287953 | LONGITUDE : 5.352197
                                 </div>
                                 <div class="credit">
-                                    <a class="mention"  href="#">
-                                        MENTIONSLEGALES/ ULTRABØLD FRANCE/ IMAGES &amp; VIDEOS HADRIEN BELS
-                                    </a> 
+                                    <a class="mention" href="#">
+                                        MENTIONSLEGALES/ ULTRABØLD FRANCE/
+                                        IMAGES &amp; VIDEOS HADRIEN BELS
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -117,10 +121,10 @@
 
             </div>
         </header>
-        <main id="fullpage" style="height: 100%;"> 
-
-            <div class="section">
-                <video class="myVideo" id="videoFirst"  playsinline autoplay
+        <main id="fullpage">
+            <!-- SECTION  1-->
+            <div class="section etage1">
+                <video class="myVideo" id="videoFirst" playsinline autoplay
                     muted loop>
                     <source
                         src="https://www.restaurant-peron.com/pic/upload/contenu/19207968_accueil_peron.mp4"
@@ -147,27 +151,326 @@
 
                 </div>
             </div>
-            <div class="section">
-                <video class="myVideo"  playsinline 
+            <!-- SECTION 2 -->
+            <div class="section etage2">
+                <!-- slide1 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/27002689_b_peron.mp4"
+                            type="video/mp4">
+                    </video>
+                    <div class="zone_contenu_text">
+                        <div class="zone_num_page">
+                            2.1
+                        </div>
+                        <div class="titre_page">
+                            Le Peron
+                        </div>
+                        <div class="presentation">
+
+                            <div> Accroché à la Corniche, le restaurant Peron
+                                surplombe la mer en offrant une vue à couper le
+                                souffle. Le panorama comme une invitation au
+                                voyage embrasse les îles du Frioul, le château
+                                d’If, l’Estaque et l’entrée du Vieux-Port...
+                                Sur notre terrasse ensoleillée ou à l’intérieur
+                                dans une ambiance élégante et décontractée.
+                                Peron fait vivre la magie d’une table à fleur de
+                                mer.
+                                <br>
+                                La carte aux effluves iodées propose une cuisine
+                                gastronomique locale colorée et raffinée aux
+                                saveurs méditerranéennes.
+                                Un cadre hors du temps qui fait de ce restaurant
+                                un véritable lieu d’exception depuis 1885.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-midelpage-slide1">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/21023022_terrasse.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <div class="btn-midelpage-slide2">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/20948681_mer_bateau.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <div class="btn-midelpage-slide3">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/21194486_couple_soir_1.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <div class="btn-midelpage-slide4">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- slide 5 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/20952572_couple_soiree.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <div class="btn-midelpage-slide5">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- SECTION 3 -->
+            <div class="section etage3">
+                <!-- slide1 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/29673739_peron_ticket_75.mp4"
+                            type="video/mp4">
+                    </video>
+                    <div class="titre_page"> MENUS / CARTE </div>
+                    <div class="contenu_page">
+                        <ul class="leaders">
+                            <li>
+                                <span>
+                                    <b>Cette proposition est à titre indicatif.
+                                        Elle est amenée à changer régulièrement.</b>
+                                </span>
+                                <span></span>
+                            </li>
+
+                            <li>
+                                <span>
+                                    <b>LE MIDI </b>
+                                    // Hors week-end et jours fériés
+                                </span>
+                                <span></span>
+                            </li>
+                            <li>
+                                <span>Entrée - Plat </span>
+                                <span class="tarife">55€</span>
+                            </li>
+                            <li>
+                                <span>Entrée - Plat - Dessert </span>
+                                <span class="tarife"> 65€</span>
+                            </li>
+                        </ul>
+
+                        <h2>entrées </h2>
+                        <ul class="leaders">
+                            <li>
+                                <span>Poulpe de méditerranée, feuilles de
+                                    câprier, sarrasin</span>
+                                <span class="tarife">25€</span>
+                            </li>
+                            <li>
+                                <span>Couteaux de Camargue pêche à pieds,
+                                    artichauts violets crus, beurre d’estragon</span>
+                                <span class="tarife">26€</span>
+                            </li>
+                            <li>
+                                <span>Courgettes en fleur au farci végétal,
+                                    vinaigre de sureau, cerises</span>
+                                <span class="tarife">23€</span>
+                            </li>
+                            <li>
+                                <span>Soupe de poissons de roche locale</span>
+                                <span class="tarife">24€</span>
+                            </li>
+                        </ul>
+
+                        <h2>plats </h2>
+                        <ul class="leaders">
+                            <li>
+                                <span>Thon rouge de ligne pays, guancial,
+                                    courgette de Nice</span>
+                                <span class="tarife">38€</span>
+                            </li>
+                            <li>
+                                <span>Rougets de roche juste saisis, légumes
+                                    croquants, réduction d’escabèche et
+                                    basilic</span>
+                                <span class="tarife"> 39€</span>
+                            </li>
+                            <li>
+                                <span>Boeuf maturé de Galice, légumes de
+                                    saison, jus corsé, condiment anchois</span>
+                                <span class="tarife">37€</span>
+                            </li>
+                        </ul>
+
+                        <h2>desserts </h2>
+                        <ul class="leaders">
+                            <li>
+                                <span>Gaspacho de pêches infusion verveine,
+                                    amandes fraîches, glace à l’amande amère</span>
+                                <span class="tarife">14€</span>
+                            </li>
+                            <li>
+                                <span>Tarte aux fraises sablée, sorbet fraise</span>
+                                <span>14€</span>
+                            </li>
+                            <li>
+                                <span>Palette de glaces et sorbets Peron</span>
+                                <span class="tarife">14€</span>
+                            </li>
+                            <li>
+                                <span>Fromage de chèvre affiné «Chez Lucienne»</span>
+                                <span class="tarife">13€</span>
+                            </li>
+
+                            <li>
+                                <span></span>
+                                <span></span>
+                            </li>
+                            <li>
+                                <span>Notre bouillabaisse servie à l'assiette,
+                                    léger bouillon de roche, focaccia safranée,
+                                    ail confit </span>
+                                <span class="tarife">65€</span>
+                            </li>
+                            <li>
+                                <span>Pêche du jour "locale et sauvage", légumes
+                                    du marché</span>
+                                <span class="tarife" style="left: 675px;">100Gr/11€</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-midelpage-slide1" style="left: 17%;">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/26405718_21641179_peron_preparationv2.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <div class="btn-midelpage-slide2" style="left: 50%;">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div class="slide">
+                    <video class="myVideo" playsinline
+                        muted loop>
+                        <source
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/21037271_poele_ok4.mp4"
+                            type="video/mp4">
+                    </video>
+
+                    <div class="btn-midelpage-slide3" style="left: 85%;">
+                        <span class="chifre-navigation">1</span>
+                        <span class="separation-nav">/&nbsp; 4</span>
+                        <a href="">
+                            <img
+                                src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                                alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- SECTION 4 -->
+            <div class="section etage4">
+                <video class="myVideo" playsinline
                     muted loop>
                     <source
-                        src="https://www.restaurant-peron.com/pic/upload/contenu/21023022_terrasse.mp4"
+                        src="https://www.restaurant-peron.com/pic/upload/contenu/29673739_peron_ticket_75.mp4"
                         type="video/mp4">
                 </video>
-         
                 <div class="btn-midelpage">
-                    <span class="chifre-navigation">1</span>
-                    <span class="separation-nav">/&nbsp; 4</span>
+                    <span class="chifre-navigation" style="transform: translateX(12px);" >1</span>
+                    <span class="separation-nav" >/&nbsp;4</span>
                     <a href="">
                         <img
-                            src="https://www.restaurant-peron.com/_specific/peron/pic/interface/fleche_bas.png"
+                            src="https://www.restaurant-peron.com/pic/upload/contenu/74779785_boucle_video.mp4"
                             alt="">
                     </a>
 
                 </div>
+
             </div>
         </main>
-        <script src="/js/fullpage.js" ></script>
-        <script src="/js/move.js"></script>
+
     </body>
 </html>

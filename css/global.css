@@ -2,21 +2,19 @@
 @import url(/css/font.css);
 @import url(/css/menu.css);
 @import url(/css/my-scroll.css);
-
 html, body {
     margin: 0;
     padding: 0 0 0 0;
     width: 100%;
     height: 100%;
-   
 }
 
 header {
-
-    height: calc( 100vh - 10px);
+    height: 100vh;
     width: 100%;
-   position: fixed;
-   z-index: 2;
+    position: fixed;
+    z-index: 5;
+    pointer-events: none;
 }
 
 .logo {
@@ -35,66 +33,144 @@ header {
 .adresse a {
     text-decoration: none;
     color: white;
-    
 }
-.block-icon{
+
+.block-icon {
     position: absolute;
     left: 90%;
     top: 94%;
 }
 
-
-video { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+video {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
     transition: 1s opacity;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0 0 0 0;
 }
-.acroche{
-display: inline-block;
-   margin-top: 17%;
-   margin-left: 511px;
+.acroche {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top:25%;
+    left: 15%;
 }
-.acroche h1,.acroche h3{
+
+.acroche h1, .acroche h3 {
     font-family: 'netto';
     font-size: 45px;
     color: white;
     margin: 0;
     letter-spacing: 6px;
-    
 }
-.acroche h3{
+
+.acroche h3 {
     color: rgb(245, 147, 49);
     margin: 0;
     padding: 0 0 0 0;
+}
 
-}
-.btn-midelpage{
-    position: absolute;
-    top: 88%;
-    left: 50%;
-}
-.chifre-navigation,.separation-nav{
+.chifre-navigation, .separation-nav {
     font-family: 'netto';
     font-size: 20px;
     color: white;
     position: absolute;
     bottom: 50px;
-    
 }
-.separation-nav{
+
+.separation-nav {
     font-size: 10px;
 }
-.chifre-navigation{
+
+.chifre-navigation {
     right: 18px;
 }
 
-.etage1.etage2{
-    display: block;
+.contenu_page ,.titre_page{
+    font-family: 'netto';
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    position: absolute;
+    z-index: 5;
+    top: 11%;
+    left: 11%;
+   height: 580px;
+   width: 710px;
+   border-top: solid 2px grey;
+   border-bottom: solid 2px grey;
+}
+.contenu_page ul{
+    padding: 0 0 0 0;
+}
+.contenu_page ul li{
+    list-style: none;
+    line-height: 25px;
+    letter-spacing: 1px;
+        
+
+}
+.contenu_page h2{
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 40px;
+    line-height: 2px;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+.tarife{
+    position: absolute;
+    left: 100%;
+    
+}
+.titre_page{
+    font-size:25px ;
+    border: none;
+    top:8%;
+    left: 11.7%;
+}
+.zone_contenu_text{
+    font-family: 'netto';
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    background-color:rgba(255, 255,255, 0.8);
+    z-index: 5;
+    left: 7%;
+    top: 30%;
+    width: 600px;
+    height: 360px;
+}
+.presentation{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.titre_page{
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    color: black;
+    font-size: 30px;
+    top: 20%;
+}
+.zone_num_page{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size:45px ;
+    font-weight: bold;
+    
 }
